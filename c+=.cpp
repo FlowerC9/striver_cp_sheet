@@ -75,7 +75,7 @@ void solve(){
     }
     count++;
     }
-    cout<<count+1<<ln;
+    cout<<count<<ln;
 }
 int main()
 {
