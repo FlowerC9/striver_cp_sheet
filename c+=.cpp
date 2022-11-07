@@ -66,7 +66,7 @@ void solve(){
     int a,b,n;
     cin>>a>>b>>n;
     int count=0;
-    while(a+b<=n){
+    while(max(a,b)<=n){
     if(a>b){
         b+=a;
     }
